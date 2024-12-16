@@ -1,0 +1,11 @@
+.grid-container {
+    display: grid;
+    border: 1px solid burlywood;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));   
+}
+    
+    /* ОФОРМЛЕНИЕ */
+div>div:nth-child(odd) { /* через каждый блок применяет данную штуку */
+        background: darkgray;
+        font-size: 25px;
+}
